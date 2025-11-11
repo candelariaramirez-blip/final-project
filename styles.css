@@ -2,7 +2,7 @@
 body{
 	background-color: #b490fe;
 }
-	ul{
+ul{
 	list-style-type: none;
 	background-color: #b490fe;
 	overflow: hidden;
@@ -15,10 +15,51 @@ li a{
 	text-align: center;
 	padding: 15px 15px;
 	text-decoration: none;
+
+}
+li a:hover{
+	background-color: #ddff8f;
+}
+
+.active{
+	border-bottom: 2px solid #999;
+}
+li a{
+	float: left;
+	display: block;
+	width: 150px;
+	background-color: #b490fe;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+}
+img:hover{
+	opacity: 0.75;
 }
 li a:hover{
 	background-color: #ddff8f;
 }
 .active{
 	border-bottom: 2px solid #999;
+}
+
+.aboutUs{
+	background-color: #FFFFFF;
+}
+.aboutUs ul{
+	list-style-type: none;
+	background-color: #DDFF8F;
+	overflow: hidden;
+}
+.aboutUs li a{
+	float: left;
+	display: block;
+	width: 70px;
+	background-color: #DDFF8F;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+}
+.aboutUs li a:hover{
+	opacity: 0.75;
 }
