@@ -63,3 +63,36 @@ li a:hover{
 .aboutUs li a:hover{
 	opacity: 0.75;
 }
+.aboutUs li a:hover{
+	background-color:#b490fe;
+}
+.reviews ul{
+	list-style-type: none;
+	background-color: #DDFF8F;
+	overflow: hidden;
+}
+.reviews li a{
+	float: left;
+	display: block;
+	width: 70px;
+	background-color: #DDFF8F;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+}
+.reviews li a:hover{
+	background-color:#b490fe;
+}
+.dogs body{
+	background-image: url("background2.png") ;
+	background-size:1500px;
+	background-position: center;
+}
+.container{
+	position: relative;
+}
+.overlay{
+	position: absolute;
+	top: 150px;
+	left: 3%;
+}
